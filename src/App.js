@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { v4 as uuid } from 'uuid';
+import { v4 as uuid } from "uuid"
 import './App.css';
 import Header from "./componentes/Header/Header"
 import Formulario from './componentes/Formulario/Formulario';
@@ -104,7 +104,6 @@ function App() {
   ])
 
 
-
   //Ternario --> condicion ? seMuestra : noSeMuestra
   // condicion && seMuestra
 
@@ -141,7 +140,7 @@ function App() {
     actualizarEquipos(equiposActualizados)
   }
 
-  //Crear Equipo
+  //Crear equipo
   const crearEquipo = (nuevoEquipo) => {
     console.log(nuevoEquipo)
     actualizarEquipos([...equipos, { ...nuevoEquipo, id: uuid() }])
@@ -157,7 +156,6 @@ function App() {
     })
 
     actualizarColaboradores(colaboradoresActualizados)
-
   }
 
   return (

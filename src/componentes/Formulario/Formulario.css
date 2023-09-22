@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     margin: 80px 50px;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
 
 .formulario form {
